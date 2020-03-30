@@ -1,6 +1,6 @@
 # Responsive Web Design: Product landing page
 
-> Welcome my project "Responsive Web Design: Product landing page"  [link](https://thenextweb.com/) , built with html and css. 
+> Welcome my project "Responsive Web Design: Product landing page" , built with html and css. 
 The purpose of this exercise is to make use of responsive design principles in order to make the website responsive. In particular, media queries and flexbox are used extensively.
 Please enjoy and leave a comment.
 
