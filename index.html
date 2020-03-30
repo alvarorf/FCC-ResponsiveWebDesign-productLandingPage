@@ -1,115 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Product Landing Page</title>
   </head>
   <body>
     <div id="page-wrapper">
-  <header id="header">
-    <div class="logo">
-      <img
-        id="header-img"
-        <a href="https://ibb.co/nDxjSN2"><img src="https://i.ibb.co/NLcKzdh/coffee-logo-design.png" alt="coffee-logo-design" border="0" ></a>
-      
+      <header id="header">
+        <div class="logo">
+            <a href="https://ibb.co/nDxjSN2"><img class="coffeenav" src="https://i.ibb.co/NLcKzdh/coffee-logo-design.png" alt="coffee-logo-design" ></a>
+        </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">About</a></li>
+          <li><a class="nav-link" href="#how-it-works">Contact us</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      </header>
+
+      <div class="container">
+
+        <section id="hero">
+          <h2>The best coffee</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <input id="submit" type="submit" value="Get Started" class="btn" />
+          </form>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Coffee of the highest quality</h2>
+              <p>
+                Our coffee uses the best technology and keeps the most flavor.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you receive your coffee as soon as we have finished
+                making it. We also provide free returns if you are not satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages or
+                faults and we will check and test every batch.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <h1 class="emptyheader">Header</h1>
+          <iframe src="https://www.youtube.com/embed/aNhpNBOIMPU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">Robusta</div>
+            <h2>$10, per kg</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Arabic</div>
+            <h2>$12, per kg</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2016, Original Trombones</span>
+        </footer>
+      </div>
     </div>
-
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="#features">About</a></li>
-        <li><a class="nav-link" href="#how-it-works">Contact us</a></li>
-        <li><a class="nav-link" href="#pricing">Pricing</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="container"></div>
-
-  <section id="hero">
-    <h2>The best coffee</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input
-        name="email"
-        id="email"
-        type="email"
-        placeholder="Enter your email address"
-        required
-      />
-      <input id="submit" type="submit" value="Get Started" class="btn" />
-    </form>
-  </section>
-
-  <div class="container">
-    <section id="features">
-      <div class="grid">
-        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-        <div class="desc">
-          <h2>Coffee of the highest quality</h2>
-          <p>
-            Our coffee uses the best technology and keeps the most flavor.
-          </p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-        <div class="desc">
-          <h2>Fast Shipping</h2>
-          <p>
-            We make sure you receive your coffee as soon as we have finished
-            making it. We also provide free returns if you are not satisfied.
-          </p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="icon">
-          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-        </div>
-        <div class="desc">
-          <h2>Quality Assurance</h2>
-          <p>
-            For every purchase you make, we will ensure there are no damages or
-            faults and we will check and test every batch.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="how-it-works">
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/aNhpNBOIMPU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="pricing">
-      <div class="product" id="tenor">
-        <div class="level">Robusta</div>
-        <h2>$10, per kg</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product" id="bass">
-        <div class="level">Arabic</div>
-        <h2>$12, per kg</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      
-    </section>
-    <footer>
-      <ul>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <span>Copyright 2016, Original Trombones</span>
-    </footer>
-  </div>
-</div>
-</body>
+  </body>
 </html>
