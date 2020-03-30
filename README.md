@@ -6,10 +6,10 @@ Please enjoy and leave a comment.
 
 # Screenshot
 
-![screenshot](./images/screenshot.jpeg)
+![screenshot](./images/screenshot.png)
 
 ## Live Demo
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/FCC-ResponsiveWebDesign-productLandingPage/d521d4dc5aa16ae92507520b19e3439e6e504020/index.html)
 
 ## Getting Started
 
